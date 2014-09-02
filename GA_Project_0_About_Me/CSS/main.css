@@ -1,3 +1,124 @@
+body {
+  text-align: center;
+  background: url("http://31.media.tumblr.com/tumblr_m4sepnjD2F1rukox9o1_1280.jpg") no-repeat;
+  background-size: cover;
+  font-family: bebas neue;
+  color: white;
+    }
+
+h1 {
+  font-size: 100px;
+  padding-top: 310px;
+}  
+
 p {
-	font-size: 14px;
+	font-size: 25px;
+	line-height: 0%;
+	position: relative;
+	top: 170px
 }
+
+p1 {
+  font-size: 70px;
+  color: #E0E0E0;
+  position: relative;
+  top: -91px;
+}
+
+p2 {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  top: 220px;
+}
+
+p3 {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  top: 235px;
+  padding-top: 4px;
+  border: solid;
+  border-width: 10px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+
+}
+
+p4 {
+  font-size: 120px;
+  position: relative;
+  top: 180px;
+  text-decoration: underline;
+  color: #934f76
+}
+
+a {
+  font-size: 80px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #934f76;
+  border-style: solid;
+  text-decoration: none;
+  border-width: 10px;
+  position: relative;
+  top: -450px;
+}
+
+ul {
+	font-size: 25px;
+	list-style-type: none;
+	position: relative;
+	left: -400px;
+	top: 160px
+}
+
+#downback {
+	font-size: 40px;
+	position: relative;
+	top: 285px;
+	left: -70px;
+	color: #fefccb
+
+}
+
+#downside {
+	font-size: 40px;
+	position: relative;
+	top: 237px;
+	left: 70px;
+	color: #fefccb
+}
+
+#downback1 {
+	font-size: 40px;
+	position: relative;
+	top: 210px;
+	left: -70px;
+	color: #fefccb
+
+}
+
+#downside1 {
+	font-size: 40px;
+	position: relative;
+	top: 162px;
+	left: 70px;
+	color: #fefccb
+}
+
+#orange {
+	color: #fefccb
+}
+
+
+
+
+
+
+
+
+
+
