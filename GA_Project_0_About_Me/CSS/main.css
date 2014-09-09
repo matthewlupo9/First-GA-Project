@@ -43,7 +43,6 @@ p3 {
   border-bottom: none;
   border-left: none;
   border-right: none;
-
 }
 
 p4 {
@@ -67,45 +66,20 @@ a {
   top: -450px;
 }
 
-ul {
-	font-size: 25px;
-	list-style-type: none;
-	position: relative;
-	left: -400px;
-	top: 160px
-}
-
 #downback {
 	font-size: 40px;
-	position: relative;
-	top: 285px;
-	left: -70px;
+	position: absolute;
+	top: 800px;
+	left: 778px;
 	color: #fefccb
 
 }
 
 #downside {
 	font-size: 40px;
-	position: relative;
-	top: 237px;
-	left: 70px;
-	color: #fefccb
-}
-
-#downback1 {
-	font-size: 40px;
-	position: relative;
-	top: 210px;
-	left: -70px;
-	color: #fefccb
-
-}
-
-#downside1 {
-	font-size: 40px;
-	position: relative;
-	top: 162px;
-	left: 70px;
+	position: absolute;
+	top: 800px;
+	left: 920px;
 	color: #fefccb
 }
 
