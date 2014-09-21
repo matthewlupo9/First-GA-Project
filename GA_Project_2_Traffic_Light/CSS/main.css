@@ -1,0 +1,40 @@
+body {
+  font-family: bebas neue;
+  font-size: 50px;
+}
+
+#outline {
+	width: 200px;
+	text-align: center;
+	padding: 15px;
+	float: left;
+	margin-left: 40px;
+}
+
+#rectangle {
+  width:200px;
+  height: 550px;
+  padding-top: 60px;
+  background-color: black;
+  float:left; 
+}
+
+.circle {
+	background-color: white;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+  	margin-right: auto;
+  	margin-left: auto;
+  }
+
+.words {
+  background-color: white;
+  border: 3px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.words:hover {
+	background-color: grey;
+}
