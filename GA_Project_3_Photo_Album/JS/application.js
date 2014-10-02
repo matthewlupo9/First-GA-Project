@@ -1,26 +1,26 @@
-var images = ["img/thumb-0.jpg", "img/thumb-1.jpg", "img/thumb-2.jpg", "img/thumb-3.jpg", "img/thumb-4.jpg"]
+var images = ["img/photo_0.jpg", "img/photo_1.jpg", "img/photo_2.jpg", "img/photo_3.jpg", "img/photo_4.jpg", "img/photo_5.jpg", "img/photo_6.jpg"]
 var currentImage = 0;
 
-function changePicture(whichNum) {
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', images[whichNum]);
-	currentImage = whichNum;
+function switchPhoto(choose) {
+	var img = document.getElementById('mainPicture');
+	img.setAttribute('src', images[choose]);
+	currentImage = choose;
 }
 
-function nextImage() {
+function nextPhoto() {
 	currentImage++;
 	if(currentImage===images.length){
 		currentImage = 0;
 	}
-	var img = document.getElementById('mainImage');
+	var img = document.getElementById('mainPicture');
 	img.setAttribute('src', images[currentImage]);
 }
 
-function prevImage() {
+function prevPhoto() {
 	currentImage = currentImage - 1;
 	if(currentImage===-1){
 		currentImage = 0;
 	}
-	var img = document.getElementById('mainImage');
+	var img = document.getElementById('mainPicture');
 	img.setAttribute('src', images[currentImage]);
 }

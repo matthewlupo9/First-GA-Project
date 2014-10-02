@@ -1,57 +1,58 @@
 body {
-	font-family: Helvetica, Georgia, sans-serif;
+	font-family: bebas neue;
+	font-size: 30px;
 }
 
-#mainContainer {
-	position: relative;
-	width: 100%;
-	height: 700px;
-	background-color: grey;
-}
-
-
-#thumbs {
-	position: absolute;
-	width: 100%;
-	height: 80px;
-}
-
-#controls {
-	position: absolute;
-	bottom: 0px;
-}
-
-#mainImageContainer img {
-	width: 100%;
-}
-
-.thumb {
-	display: inline-block;
-	width: 80px;
-	height: 80px;
+#pictures {
+	margin-top: 50px;
+	margin-left: 5px;
+	width: 95px;
+	height: 715px;
 	background-color: black;
-	cursor: pointer;
-	overflow: hidden;
 	border: 2px solid white;
 }
 
-.thumb img {
+#navigation {
+	position: relative;
+	bottom: 750px;
+	margin-left: 720px;
+	margin-right: 720px;
+
+}
+
+#mainBigPicture img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1; 
+	width: 100%;
+}
+
+.picture {
+	cursor: pointer;
+	padding: 5px
+}
+
+.picture img {
 	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	border: 2px solid white;
 }
 
-
-.thumb:hover {
-	opacity: .7;
+.picture:hover {
+	opacity: .5;
 }
 
-.btn {
+.leftright {
 	color: white;
 	background-color: black;
-	padding: 20px;
-	border: 1px solid white;
+	padding: 5px;
+	border: 5px solid white;
 	cursor: pointer;
+	text-align: center;
 }
 
-.btn:hover {
-	opacity: .7;
+.leftright:hover {
+	opacity: .5;
 }
