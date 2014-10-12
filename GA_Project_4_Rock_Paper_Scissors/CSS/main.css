@@ -1,0 +1,17 @@
+#description {
+	font-size: 28px;
+	text-decoration: none;
+	color: orange;
+}
+
+.header {
+	font-family: bebas neue, arial, sans-serif;
+	font-size: 75px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#pictures {
+	text-align: center;
+	cursor: pointer;
+}
